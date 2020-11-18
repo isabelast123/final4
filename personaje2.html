@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>personaje1</title>
+	<link rel="stylesheet" type="text/css" href="esti.css">
+	<script src="funci.js" languaje="javascript" type="text/javascript"></script>
+</head>
+<body style= background-image:url(tabla.jpg)>
+	<div class="animap2"><center><br><br><br><br><br><br></center></div>
+		<div class="texto"><center><br>PERSONAJE 2<br> soy susi, y al igual que emily vivo con mi madre y me gusta divertirme siempre <br> me encanta jugar en el parque con emily<br></center>
+		
+		<div class="b_narra">
+		<audio src="per2.ogg" id="player" autoplay loop="true" ></audio>
+		    <button onclick="document.getElementById('player').play()" class="play">Play </button>
+    		<button onclick="document.getElementById('player').pause()" class="pausa">Pausa </button>
+    		<button onclick="document.getElementById('player').load()" class="stop">Stop </button>
+    		<button onclick="document.getElementById('player').volume += .1" class="subir">+ volumen</button>
+    		<button onclick="document.getElementById('player').volume -= .1" class="bajar">- volumen</button>  
+	</div>
+	        <div>
+    		<video src="perso2.mp4" style=" top:-40px; width: 730px; height: 630px; left:110px; overflow: hidden; position: relative;" autoplay onclick muted></video>
+    	   </div> 
+    
+     </div>
+	<div class="pagina"><img src=""></div>
+	<div class="volver"> <a href="index.html"><img src="ini.png"></a> </div>
+	<div class="anterior"> <a href="personaje1.html"><img src="flecha2.jpg"></a> </div>
+</body>
+</html>
